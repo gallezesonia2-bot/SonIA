@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <mask id="robotEyes">
+      <rect width="64" height="64" fill="white" />
+      <circle cx="39" cy="26" r="3.2" fill="black" />
+      <circle cx="47" cy="26" r="3.2" fill="black" />
+      <path d="M58 56 L62 52 L62 56 Z" fill="black" />
+    </mask>
+  </defs>
+  <g fill="#7C3AED" mask="url(#robotEyes)">
+    <path d="M2,18 L26,2 L30,46 L6,54 Z" />
+    <rect x="26" y="2" width="34" height="26" rx="13" />
+    <rect x="24" y="28" width="38" height="30" rx="15" />
+  </g>
+</svg>
